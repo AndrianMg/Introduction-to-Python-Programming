@@ -1,0 +1,11 @@
+# Initializing the first two Fibonacci numbers
+f = 1
+g = 1
+print (f, end = ' ')
+# Running the loop while the last Fibonacci number is less than 20
+while g < 20:
+ print (g, end = ' ')
+# Calculating the next Fibonacci number and updating the last two sequence numbers
+temp = f
+f = g
+g = temp + g

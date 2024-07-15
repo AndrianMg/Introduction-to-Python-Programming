@@ -1,0 +1,16 @@
+def display_pattern():         #The def display_pattern(): line is used to define a function in Python. Here’s a detailed explanation:
+
+                               # def: This keyword is used to define a new function.
+                               # display_pattern: This is the name of the function. You can choose any valid name for your function.
+                               # (): These parentheses indicate that this function does not take any arguments.
+                               # :: This colon signifies the start of the function's body.
+    # Define the number of lines in the pattern
+    lines = 7
+
+    # Loop to print each line
+    for i in range(lines):
+        # Print spaces to align the asterisk diagonally in the mirror pattern
+        print(' ' * (2 * (lines - i - 1)) + '*')
+
+# Call the function to display the pattern
+display_pattern()

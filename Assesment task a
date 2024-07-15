@@ -1,0 +1,29 @@
+print ("Task a " + "-----------------------------------") 
+def display_pattern():
+    # Define the number of lines in the pattern
+    lines = 8
+
+    # Loop to print each line
+    for i in range(lines):
+        # Print spaces to align the asterisk diagonally
+        print(' ' * (2 * i) + '*')
+
+# Call the function to display the pattern
+display_pattern()
+
+print ("Task b" + "-----------------------------------") 
+def display_pattern():
+    """
+    This function prints a mirrored diagonal pattern of asterisks.
+    The pattern has 8 lines, each with one asterisk (*), aligned from the top-left to the bottom-right.
+    """
+    # Define the number of lines in the pattern
+    lines = 8
+
+    # Loop to print each line
+    for i in range(lines):
+        # Print spaces to align the asterisk diagonally in the mirror pattern
+        print(' ' * (2 * (lines - i - 1)) + '*')
+
+# Call the function to display the pattern
+display_pattern()
